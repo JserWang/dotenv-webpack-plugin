@@ -58,10 +58,10 @@ const loadEnv = (mode: string | undefined, root: string) => {
   return env;
 };
 
-export class DotenvWebpackPlugin {
+export class WebpackDotenvPlugin {
   apply(compiler: Compiler) {
     new DefinePlugin({
-      'process.env': loadEnv(process.env.NODE_ENV, process.cwd()),
+      'process.env': loadEnv(compiler.options.mode, process.cwd()),
     }).apply(compiler);
   }
 }

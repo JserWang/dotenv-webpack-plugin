@@ -1,5 +1,5 @@
 {
-  "name": "dotenv-webpack-plugin",
+  "name": "webpack-plugin-dotenv",
   "version": "1.0.0",
   "description": "A webpack plugin for dotenv",
   "main": "dist/index.js",
@@ -20,12 +20,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JserWang/dotenv-webpack-plugin"
+    "url": "https://github.com/JserWang/webpack-plugin-dotenv"
   },
   "bugs": {
-    "url": "https://github.com/JserWang/dotenv-webpack-plugin/issues"
+    "url": "https://github.com/JserWang/webpack-plugin-dotenv/issues"
   },
-  "homepage": "https://github.com/JserWang/dotenv-webpack-plugin/tree/master/#readme",
+  "homepage": "https://github.com/JserWang/webpack-plugin-dotenv/tree/master/#readme",
   "devDependencies": {
     "@types/node": "^14.14.20",
     "@types/webpack": "^4.41.25",
