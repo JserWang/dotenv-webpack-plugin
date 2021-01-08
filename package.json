@@ -1,0 +1,44 @@
+{
+  "name": "dotenv-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin for dotenv",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && rollup --config rollup.config.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "webpack",
+    "dotenv",
+    "plugin"
+  ],
+  "author": "JserWang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JserWang/dotenv-webpack-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/JserWang/dotenv-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/JserWang/dotenv-webpack-plugin/tree/master/#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "@types/webpack": "^4.41.25",
+    "rimraf": "^2.6.1",
+    "rollup": "^2.36.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "webpack": "^5.11.1"
+  }
+}
